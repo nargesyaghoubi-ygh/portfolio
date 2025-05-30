@@ -87,8 +87,7 @@ body{
   .nav-links {
     display: none;
     flex-direction: column;
-    width: 70vw;
-    max-width: 300px;
+    width: 220px;
     background-color: rgb(8, 8, 8);
     position: fixed;
     top: 56px;
@@ -171,6 +170,12 @@ html, body {
   background-color: rgb(8, 8, 8);
 }
 
+/* .box-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+} */
 
 .rotating-text {
   font-size: 2rem;
@@ -182,7 +187,6 @@ html, body {
   overflow: hidden;
   white-space: nowrap;
 }
-
 
 .rotating-text .prefix {
   margin-right: 5px;
