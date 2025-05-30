@@ -182,15 +182,6 @@ html, body {
   overflow: hidden;
   white-space: nowrap;
 }
-@media (max-width: 768px) {
-  .rotating-text span {
-    font-size: 3vh;
-  }
-
-  .box-container p {
-    font-size: 24px;
-  }
-}
 
 
 .rotating-text .prefix {
