@@ -703,30 +703,62 @@ html, body {
 /* start footer  */
 
 
-footer{
+footer {
   background-color: rgb(179, 70, 241);
   text-align: center;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-sizing: border-box;
 }
-footer .icon .fab{
+
+footer .icon {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+footer .icon .fab {
   background-color: var(--black);
   color: #131112;
   font-size: 2rem;
   text-decoration: none;
   padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-footer .social .fab:hover{
+footer .icon .fab:hover {
   color: var(--black);
   background-color: var(--white);
 }
-footer .content p{
+
+footer .content p {
   font-size: 1.5rem;
   color: var(--white);
+  margin: 0;
 }
 
-footer .content p span{
+footer .content p span {
   color: var(--black);
+}
+
+
+@media (max-width: 480px) {
+  footer {
+    padding: 1rem;
+  }
+
+  footer .icon .fab {
+    font-size: 1.5rem;
+    padding: 8px;
+  }
+
+  footer .content p {
+    font-size: 1.2rem;
+  }
 }
 
 /* end footer  */
